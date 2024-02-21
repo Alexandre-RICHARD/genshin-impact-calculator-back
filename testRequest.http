@@ -1,0 +1,8 @@
+@baseUrl = http://localhost:{{$dotenv LOCAL_PORT}}
+
+### * Route GET /
+GET {{baseUrl}}
+
+
+### * Route GET /user
+GET {{baseUrl}}/getdata
